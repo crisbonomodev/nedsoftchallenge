@@ -80,6 +80,6 @@ function insertHTML(array,template,container) {
     /*Agregamos un event listener para el boton de comprar*/
     const $btnComprar = document.querySelector('.btnComprar').addEventListener('click',()=>{
         console.log('Click!');
-        window.open(`/producto.html?id=${arrayProduct[0].id}?imgUrl=${arrayProduct[0].imgUrl}`);
+        window.open(`./producto.html?id=${arrayProduct[0].id}?imgUrl=${arrayProduct[0].imgUrl}`);
     })
 })();
