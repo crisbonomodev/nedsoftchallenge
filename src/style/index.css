@@ -62,7 +62,7 @@ h1 {
 }
 
 .list--item--info {
-    padding-left: 5px;
+    padding: 0 10px;
 }
 
 .btnComprar {
