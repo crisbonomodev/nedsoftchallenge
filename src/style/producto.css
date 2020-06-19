@@ -44,6 +44,11 @@ h1 {
     box-shadow: 10px 10px 17px 0px #eeeeee;
 }
 
+.product--random--img img {
+    height: 160px;
+    width: auto;
+}
+
 .product--info {
     padding-left: 10px;
 }
@@ -51,6 +56,7 @@ h1 {
 
 .btnComprar {
     padding: 5px 10px;
+    margin-bottom: 5px;
     color: white;
     background-color: black;
     border: none;
